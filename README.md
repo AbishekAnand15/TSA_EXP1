@@ -10,22 +10,13 @@ To analyze and visualize the sales trends of a furniture store over time by crea
 
 ## ALGORITHM:
 
-
- 1.Import the necessary libraries: Import pandas, numpy, and matplotlib.pyplot.
- 
- 2.Load the CSV data: Use pandas.read_csv to load the first 50 rows of the data from index.csv into a DataFrame.
- 
- 3.Preview the data: Use DataFrame.head() to display the first 10 rows of the DataFrame.
- 
- 4.Group and count data: Group the data by date and coffee_name, then count the occurrences for each group.
- 
- 5.Create the plot: Use matplotlib to create a line plot that shows the count of each coffee_name by date.
- 
- 6.Customize the plot: Add a title, labels, and rotate the x-axis labels for better readability.
- 
- 7.Display the plot: Use plt.show() to display the final plot.
-  <br />
-  <br />
+1.Load the Data: Import the sales dataset from a CSV file with appropriate encoding.
+2.Data Preprocessing: Convert the order date to datetime format and filter for furniture sales.
+3.Group and Aggregate Data: Group sales by order date and aggregate the total sales for each date.
+4.Plot the Time Series: Create a time series plot of the aggregated sales data using matplotlib.
+5.Interpret the Plot: Analyze the plot to identify trends, seasonality, and anomalies in the sales data.
+<br />
+<br />
 
 
 ## PROGRAM:
